@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+
+*.zip
+*.dbf
+*.shp
+*.shx
+*.prj
+*.cpg
