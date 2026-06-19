@@ -215,7 +215,7 @@ def convertir_a_hora_local(ds, offset_utc):
 
 def convertir_ssrd(ds, variable="ssrd"):
     """
-    Convierte ssrd de ERA5 (J/m² acumulado diario) a W/m² promedio por hora.
+    Convierte ssrd de ERA5 J/m2 a W/m2 promedio por hora.
     """
     ds = ds.copy()
     
