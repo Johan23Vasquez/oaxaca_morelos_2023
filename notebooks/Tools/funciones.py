@@ -201,10 +201,10 @@ def convertir_a_hora_local(ds, offset_utc):
 
     Args:
         ds (.nc): Archivo xarray para extraer la información
-        offset_utc (int, optional): _description_. Defaults to -6.
+        offset_utc (int): número de horas correspondientes al offset de la zona horaria correspondiente.
 
     Returns:
-        _type_: _description_
+        dataset: dataset con los cambios en la zona horaria 
     """
     ds = ds.copy()
     ds = ds.assign_coords(
